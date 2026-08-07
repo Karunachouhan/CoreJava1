@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 
 public class Convertion {
+	public static void main(String[] args) {
          double dis , m;
          System.out.println("Enter a distance: ");
          Scanner sc = new Scanner(System.in);
@@ -10,3 +11,5 @@ public class Convertion {
          m = dis*1000;
          System.out.println("Distance in meters:- "+ m);
 }
+}
+
