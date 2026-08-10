@@ -13,6 +13,5 @@ public class PalindromString {
 		}else {
 			System.out.println("its not palindrom");
 		}
-		
-
-}}
+	}		
+}
