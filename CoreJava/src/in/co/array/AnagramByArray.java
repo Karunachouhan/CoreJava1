@@ -10,12 +10,12 @@ public class AnagramByArray {
 		char[] a = str.toCharArray(); // l,i,s,t,e,n
 		char[] b = str1.toCharArray();
 
-		Arrays.sort(a);
+		Arrays.sort(a);      
 		Arrays.sort(b);
-		
-		if(Arrays.equals(a,b)) {
-				System.out.println("It is anagram");
-		}else {
+
+		if (Arrays.equals(a, b)) {
+			System.out.println("It is anagram");
+		} else {
 			System.out.println("Not anagram");
 		}
 

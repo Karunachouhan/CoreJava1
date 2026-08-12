@@ -1,0 +1,18 @@
+package in.co.array;
+
+public class NoteCounterUsingArray {
+       public static void main(String[] args) {
+    	   int amount = 5500;
+    	   int[] notes = {2000,1000,500,200,100,50,20,10,5,2,1};
+    	   int count = 0;
+    	   
+    	   for(int i=0; i<notes.length; i++) {
+    		   count=amount/notes[i];
+    		   
+    		   if(count>0) {
+    			   System.out.println(notes[i] + "=" + count);
+    		   }
+    		   amount = amount%notes[i];
+    	   }
+       }
+}
