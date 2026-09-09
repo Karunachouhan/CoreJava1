@@ -1,5 +1,6 @@
 package in.com.java.collection;
 
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -8,7 +9,7 @@ public class TestQueue {
 	
 	public static void main(String[] args) {
 		
-		Queue q = new LinkedList();
+		Queue q = new ArrayDeque();
 		q.add("A");
 		q.add("B");
 		q.add('c');

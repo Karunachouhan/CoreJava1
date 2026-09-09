@@ -28,6 +28,8 @@ public class TestCollectionMethods {
 		System.out.println(c.addAll(c1)); // return boolean values & add collection
 
 		System.out.println(c);
+		
+		System.out.println(c.retainAll(c1));     //return boolean values
 
 		System.out.println(c.contains(101)); // return boolean values & checking membership
 
@@ -45,6 +47,8 @@ public class TestCollectionMethods {
  		
  		c.clear();         //Remove all element from collection
  		System.out.println(c);
+ 		
+ 		
 		
 	}
 
