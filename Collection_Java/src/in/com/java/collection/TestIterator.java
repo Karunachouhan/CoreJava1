@@ -5,6 +5,8 @@ import java.util.Iterator;
 
 public class TestIterator {
 	//iterator is a interface used to read/access elements one by one from collection
+	//iterator is failfast (modification(add) cannot done)
+	//Iterator and enumeration both are same but iterator has one additional method "remove()"
 	
 	public static void main(String[] args) {
 		 
