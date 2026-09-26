@@ -8,6 +8,8 @@ public class TestEnumeration {
 	// enumeration is used to traverse or iterate elements of a
 	// historical(legacy)collections like vector and hashtable one by one
 	// In enumeration we cannot remove element
+	// it does not contain remove method
+	// it is fail safe
 
 	public static void main(String[] args) {
 
