@@ -4,6 +4,7 @@ public class TestUsingThread {
 
 	public static void main(String[] args) {
 
+		// thread are born when create object using new keyword
 		UsingThread t1 = new UsingThread("Diksha"); // creates the thread object
 		UsingThread t2 = new UsingThread("Madhu");
 
@@ -11,7 +12,7 @@ public class TestUsingThread {
 		t2.start(); // start() internally calls run()
 
 		for (int i = 0; i <= 5; i++) {
-			System.out.println("main"); // main thread
+			System.out.println(i + "=" + "Karuna"); // main thread
 
 		}
 

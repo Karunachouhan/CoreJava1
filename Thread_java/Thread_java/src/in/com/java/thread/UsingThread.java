@@ -9,7 +9,7 @@ public class UsingThread extends Thread { // creates a thread class
 	// It is used to create and manage thread
 	// start() internally calls run() method
 
-	String name = null;
+	private String name;
 
 	public UsingThread(String n) {
 		this.name = n;
@@ -19,8 +19,12 @@ public class UsingThread extends Thread { // creates a thread class
 	public void run() // run() contains the task that the thread will perform
 	{
 		for (int i = 0; i <= 5; i++) {
-			System.out.println(i + name);
-
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			System.out.println(i + "=" + name);
 		}
 
 	}
